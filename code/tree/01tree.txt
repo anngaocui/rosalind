@@ -1,0 +1,14 @@
+Character-Based Phylogeny              chbp.py        根据字符表得到无根二叉树
+Counting Quartets                      cntq.py        n个节点的无根树产生的quartets的总数（%1000000）
+CCreating a Character Table            ctbl.py        根据无根树创建一个角色表
+Counting Unrooted Binary Trees         cunr.py        计算n个叶子的无根树的总数
+Enumerating Unrooted Binary Trees      eubt.py        列出n个节点可产生的所有无根树
+Counting Phylogenetic Ancestors		   inod.py		  n片叶子的无根树的内部节点个数
+Finding the Longest Multiple Repeat    lrep.py        根据后缀树找最长的重复片段￥￥
+Inferring Genotype from a Pedigree     mend.py        根据二叉树求三种基因型的比例
+Newick Format with Edge Weights        nkew.py        找任意两个节点的距离（树干有权重）
+Distances in Trees					   nwck.py		  任意两个节点的距离
+Quartets                               qrt.py         根据字符表找四个叶子节点
+Counting Rooted Binary Trees           root.py        n个节点的有根树的数量
+Completing a Tree					   tree.py		  提供n个节点和k条边，求生成树需要最少边的数目
+Introduction to Pattern Matching	   trie.py        根据序列建树（邻接表）

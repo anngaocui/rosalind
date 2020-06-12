@@ -1,0 +1,26 @@
+Error Correction in Reads                         corr.py          找出错误的DNA序列（错误—>正确）
+Creating a Character Table from Genetic Strings   cstr.py          找出字符超过两个（》=2）不同的列并用0,1表示同一字符
+Constructing a De Bruijn Graph                    dbru.py          构建De Bruijn图	
+Genome Assembly Using Reads                       gasm.py          组装DNA（给出正链和反链）￥
+Genome Assembly with Perfect Coverage and Repeats grep.py        有向循环序列所有DNA序列组装的结果
+COverlap Graphs                                   grph.py          找到首尾可拼接的DNA序列
+Counting Point Mutations                          hamm.py          统计突变点数目
+Finding Disjoint Motifs in a Gene                 itwv.py          在一个基因中找到不交叉的片段（0：不交叉，1：交叉）
+k-Mer Composition                                 kmer.py          DNA序列中所有四个碱基序列的频率
+Speeding Up Motif Finding                         kmp.py           每个位点与从头开始匹配的匹配情况#
+Finding a Shared Motif                            lcsm.py          寻找DNA最长的公共子序列
+Finding a Shared Spliced Motif                    lcsq.py          双序列匹配最长匹配序列
+Genome Assembly as Shortest Superstring           long.py          将多条序列拼接成最短的序列，保证原序列存在
+Motzkin Numbers and RNA Secondary Structures      motz.py          RNA二级结构匹配的方式总和（不可交叉，不完全匹配）#
+Open Reading Frames                               orf.py           寻找开发阅读框并翻译成氨基酸序列
+Genome Assembly with Perfect Coverage             pcov.py          找到最短的序列（多条序列拼接成循环周期图）
+Creating a Distance Matrix                        pdst.py          两两序列的匹配距离（得到距离矩阵）
+Translating RNA into Protein                      prot.py          RNA翻译成蛋白质
+Complementing a Strand of DNA                     revc.py          DNA反向互补序列
+Locating Restriction Sites                        revp.py          找出所有大于4个碱基的回旋序列位点及长度
+Transcribing DNA into RNA                         rna.py           DNA转录成RNA
+Interleaving Two Motifs                           scsp.py          两条序列拼接的最短序列（交叉拼接）
+RNA Splicing                                      splc.py          把切除内含子后的DNA序列翻译成氨基酸序列
+Finding a Spliced Motif                           sseq.py          找出任意一条第二条序列各碱基在第一条序列对应的位点
+Finding a Motif in DNA                            subs.py          找寻子序列在DNA序列中所有的位置
+Transitions and Transversions                     tran.py          计算两条DNA序列转变和转换的比例

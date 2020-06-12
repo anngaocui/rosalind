@@ -1,0 +1,18 @@
+Counting Disease Carriers                       afrq.py         根据纯隐性（aa）个体推断疾病基因携带者（Aa，aa）
+Introduction to Alternative Splicing            aspc.py         可变剪切的所有情况总和
+Counting DNA Nucleotides                        dna.py          统计ACGT含量
+Wright-Fisher's Expected Behavior               ebin.py         
+Expected Number of Restriction Sites            eval.py         随机GC含量概率下的序列匹配概率#
+Rabbits and Recurrence Relations                fib.py          计算兔子数量（不考虑死亡）
+Mortal Fibonacci Rabbits                        fibd.py	        计算兔子数量（生存m月以后兔子死亡）
+computing GC Content                            gc.py           计算GC含量最高的序列
+Calculating Expected Offspring                  iev.py          不同数目的表型预期后代为显性表型的个数
+Independent Segregation of Chromosomes          indc.py         独立遗传染色体的概率的对数#
+Mendel's First Law                              iprb.py         自由交配后显性基因频率
+Independent Alleles                             lia.py          计算K代以后至少N个AaBb个体的概率
+Partial Permutations                            pper.py         从n个数中取k个数的情况总和
+Introduction to Random Strings                  prob.py         随机字符串GC含量与已知序列一致的概率的对数
+Matching Random Motifs                          rstr.py         匹配长度为N的随机字符概率
+Sex-Linked Inheritance                          sexl.py         伴性遗传病概率
+Counting Subsets                                sset.py	        子集总数
+The Wright-Fisher Model of Genetic Drift        wfmd.py

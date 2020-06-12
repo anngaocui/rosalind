@@ -1,0 +1,11 @@
+Counting Optimal Alignments                                 ctea.py     计算最优比对匹配1分，错配，插入-1分（蛋白质序列）
+Edit Distance                                               edit.py		氨基酸序列比对匹配总和
+Edit Distance Alignment	                                    edta.py     双序列比对（edit distance 和比对的序列结果）
+Global Alignment with Scoring Matrix and Affine Gap Penalty gaff.py     全局比对（gap开始-11,gap每多一个-1）最高得分和比对结果
+Global Alignment with Constant Gap Penalty                  gcon.py     全局比对得到最大比对得分（连续gap-5，BLOSUM62 scoring matrix）
+Global Alignment with Scoring Matrix                        glob.py     根据BLOSUM62 scoring matrix计算最优比对（gap-5）
+Local Alignment with Scoring Matrix                         loca.py     局部比对最大得分（连续gap-5,PAM250 scoring matrix）
+Maximizing the Gap Symbols of an Optimal Alignment          mgap.py     双序列比对最大得分（错配插入-1,匹配+1）
+Overlap Alignment                                           oap.py      最佳重叠序列（序列首尾重叠）
+Finding a Motif with Modifications                          sims.py     最佳motif（最大得分和比对序列结果）
+Semiglobal Alignment                                        smgb.py     全局匹配gap-1,匹配替换+1（DNA序列）

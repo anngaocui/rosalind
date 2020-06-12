@@ -1,0 +1,6 @@
+Comparing Spectra with the Spectral Convolution conv.py     根据蛋白质质量找最大多样性的S1⊖S2 
+Inferring Peptide from Full Spectrum            full.py     从全谱推断肽
+IMatching a Spectrum to a Protein               prsm.py     匹配蛋白质谱找到出现最多的蛋白质序列及次数
+Calculating Protein Mass                        prtm.py     计算蛋白质质量
+Using the Spectrum Graph to Infer Peptides      sgra.py     根据肽谱得到最长的肽链￥
+Inferring Protein from Spectrum                 spec.py     根据质量推断蛋白质谱

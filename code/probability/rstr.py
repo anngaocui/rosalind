@@ -1,0 +1,6 @@
+fid = open('/home/ralf/Downloads/rosalind_rstr.txt','r').readlines()
+n,x=fid[0].strip().split(" ")
+s=fid[1].strip()
+gc=s.count("C")+s.count("G")
+a=(float(x)/2)**gc*(0.5-float(x)/2)**(len(s)-gc)
+print 1-(1-a)**int(n)
