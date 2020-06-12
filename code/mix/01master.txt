@@ -1,0 +1,9 @@
+Consensus and Profile                                cons.py            统计多条DNA序列的各个位点的ACGT频数输出最可能的DNA序列
+Enumerating k-mers Lexicographically                 lexf.py			列出所有从碱基中取n个碱基（可重复）的情况
+Ordering Strings of Varying Length Lexicographically lexv.py			可变长度的字符串序列排序
+Longest Increasing Subsequence                       lgis.py			找出数字序列中最长的升序和降序
+Finding a Protein Motif                              mprt.py			抓取网页信息，并找寻protein motif位点
+Inferring mRNA from Protein                          mrna.py			统计蛋白质序列反转录的情况数目
+Enumerating Gene Orders                              perm.py			从1到n排列成不同的序列
+Introduction to Set Operations                       seto.py			两个集合的并集交集差集补集
+Enumerating Oriented Gene Orderings                  sign.py			列出基因序列的所有可能情况（正反链） 

@@ -1,0 +1,88 @@
+Counting DNA Nucleotides						dna.py			probability		统计ACGT含量
+Transcribing DNA into RNA						rna.py  		string			DNA转录成RNA
+Complementing a Strand of DNA 					revc.py 		string			DNA反向互补序列
+Rabbits and Recurrence Relations				fib.py			probability		计算兔子数量（不考虑死亡）
+computing GC Content							gc.py			probability		计算GC含量最高的序列
+Counting Point Mutations						hamm.py			string          统计突变点数目
+Mendel's First Law								iprb.py    		probability		自由交配后显性基因频率
+Translating RNA into Protein					prot.py			string			RNA翻译成蛋白质
+Finding a Motif in DNA							subs.py			string			找寻子序列在DNA序列中所有的位置
+Consensus and Profile							cons.py			master			统计多条DNA序列的各个位点的ACGT频数输出最可能的DNA序列
+Mortal Fibonacci Rabbits						fibd.py			probability		计算兔子数量（生存m月以后兔子死亡）
+Overlap Graphs									grph.py			string			找到首尾可拼接的DNA序列
+Calculating Expected Offspring					iev.py			probability		不同数目的表型预期后代为显性表型的个数
+Finding a Shared Motif							lcsm.py			string			寻找DNA最长的公共子序列
+Independent Alleles								lia.py			probability		计算K代以后至少N个AaBb个体的概率
+Inferring mRNA from Protein        	 			mrna.py			master			统计蛋白质序列反转录的情况数目
+Finding a Protein Motif							mprt.py			master			抓取网页信息，并找寻protein motif位点
+Open Reading Frames								orf.py          string          寻找开发阅读框并翻译成氨基酸序列
+Enumerating Gene Orders             			perm.py         master			从1到n排列成不同的序列
+Calculating Protein Mass						prtm.py			probability		计算蛋白质质量
+Enumerating k-mers Lexicographically 			lexf.py        	master			列出所有从碱基中取n个碱基（可重复）的情况
+Locating Restriction Sites						revp.py			string			找出所有大于4个碱基的回旋序列位点及长度
+RNA Splicing 									splc.py			string			把切除内含子后的DNA序列翻译成氨基酸序列
+Longest Increasing Subsequence					lgis.py			master			找出数字序列中最长的升序和降序
+Genome Assembly as Shortest Superstring			long.py        	string			将多条序列拼接成最短的序列，保证原序列存在
+Perfect Matchings and RNA Secondary Structures 	pmch.py 		rna 			RNA二级结构匹配的方式总和
+Partial Permutations							pper.py         probability		从n个数中取k个数的情况总和
+Introduction to Random Strings					prob.py			probability	    随机字符串GC含量与已知序列一致的概率的对数
+Enumerating Oriented Gene Orderings				sign.py			master          列出基因序列的所有可能情况（正反链）（-1，2）（1,-2）（1,2）（-1,-2）
+Finding a Spliced Motif                         sseq.py			string			找出任意一条第二条序列各碱基在第一条序列对应的位点
+Transitions and Transversions 					tran.py         string			计算两条DNA序列转变和转换的比例
+Completing a Tree								tree.py			tree			提供n个节点和k条边，求生成树需要最少边的数目
+Catalan Numbers and RNA Secondary Structures    cat.py			rna 			RNA二级结构匹配的方式总和（要求匹配不交叉）
+Error Correction in Reads						corr.py			string			找出错误的DNA序列（错误—>正确）
+Counting Phylogenetic Ancestors					inod.py			tree			n片叶子的无根树的内部节点个数
+k-Mer Composition								kmer.py			string			DNA序列中所有四个碱基序列的频率
+Speeding Up Motif Finding						kmp.py			string			每个位点与从头开始匹配的匹配情况#
+Finding a Shared Spliced Motif					lcsq.py			string			双序列匹配最长匹配序列
+Ordering Strings of Varying Length Lexicographically lexv.py    master			可变长度的字符串序列排序
+Maximum Matchings and RNA Secondary Structures	mmch.py			rna             RNA二级结构匹配的方式总和（可交叉，不完美匹配）
+Creating a Distance Matrix 						pdst.py         string			两两序列的匹配距离（得到距离矩阵）
+Matching Random Motifs							rstr.py			probability		匹配长度为N的随机字符概率
+Counting Subsets								sset.py			probability		子集总数
+Introduction to Alternative Splicing			aspc.py			probability		可变剪切的所有情况总和
+Edit Distance									edit.py			gap				氨基酸序列比对匹配总和
+Expected Number of Restriction Sites			eval.py			probability		随机GC含量概率下的序列匹配概率#
+Motzkin Numbers and RNA Secondary Structures	motz.py			string			RNA二级结构匹配的方式总和（不可交叉，不完全匹配）#
+Distances in Trees								nwck.py			tree			任意两个节点的距离
+Interleaving Two Motifs							scsp.py         string			两条序列拼接的最短序列（交叉拼接）
+Introduction to Set Operations					seto.py			master			两个集合的并集交集差集补集
+Inferring Protein from Spectrum					spec.py         protein			根据质量推断蛋白质谱
+Introduction to Pattern Matching				trie.py         tree            根据序列建树（邻接表）
+Comparing Spectra with the Spectral Convolution conv.py         protein         根据蛋白质质量找最大多样性的S1⊖S2 
+Constructing a De Bruijn Graph				    dbru.py         string        	构建De Bruijn图	
+Edit Distance Alignment							edta.py         gap             双序列比对（edit distance 和比对的序列结果）
+Creating a Character Table                      ctbl.py        	tree			根据无根树创建一个角色表
+Inferring Peptide from Full Spectrum			full.py         protein         从全谱推断肽
+Independent Segregation of Chromosomes          indc.py         probability     独立遗传染色体的概率的对数#
+Finding Disjoint Motifs in a Gene               itwv.py         string          在一个基因中找到不交叉的片段（0：不交叉，1：交叉）
+Finding the Longest Multiple Repeat             lrep.py         tree            根据后缀树找最长的重复片段￥￥
+Newick Format with Edge Weights                 nkew.py         tree            找任意两个节点的距离（树干有权重）
+Wobble Bonding and RNA Secondary Structures     rnas.py         rna             RNA二级结构匹配的方式总和（摆动绑定。G=C，G=U;A=U，不交叉）￥
+Counting Disease Carriers                       afrq.py         probability     根据纯隐性（aa）个体推断疾病基因携带者（Aa，aa）
+Creating a Character Table from Genetic Strings cstr.py         string          找出字符超过两个（》=2）不同的列并用0,1表示同一字符
+Counting Optimal Alignments                     ctea.py         gap             计算最优比对匹配1分，错配，插入-1分（蛋白质序列）
+Global Alignment with Scoring Matrix            glob.py         gap             根据BLOSUM62 scoring matrix计算最优比对（gap-5）
+Counting Unrooted Binary Trees                  cunr.py         tree            计算n个叶子的无根树的总数
+Genome Assembly with Perfect Coverage           pcov.py         string          找到最短的序列（多条序列拼接成循环周期图）
+Matching a Spectrum to a Protein                prsm.py         protein         匹配蛋白质谱找到出现最多的蛋白质序列及次数
+Quartets                                        qrt.py          tree            根据字符表找四个叶子节点
+Using the Spectrum Graph to Infer Peptides      sgra.py         protein         根据肽谱得到最长的肽链￥
+Character-Based Phylogeny                       chbp.py         tree            根据字符表得到无根二叉树
+Counting Quartets                               cntq.py         tree            n个节点的无根树产生的quartets的总数（%1000000）
+Enumerating Unrooted Binary Trees               eubt.py         tree            列出n个节点可产生的所有无根树
+Genome Assembly Using Reads                     gasm.py         string          组装DNA（给出正链和反链）￥
+Global Alignment with Constant Gap Penalty      gcon.py         gap             全局比对得到最大比对得分（连续gap-5，BLOSUM62 scoring matrix）
+Local Alignment with Scoring Matrix             loca.py         gap             局部比对最大得分（连续gap-5,PAM250 scoring matrix）
+Inferring Genotype from a Pedigree              mend.py         tree            根据二叉树求三种基因型的比例
+Maximizing the Gap Symbols of an Optimal Alignment mgap.py      gap             双序列比对最大得分（错配插入-1,匹配+1）
+Counting Rooted Binary Trees                    root.py         tree            n个节点的有根树的数量
+Sex-Linked Inheritance                          sexl.py         probability     伴性遗传病概率
+Wright-Fisher's Expected Behavior               ebin.py         probability     
+The Wright-Fisher Model of Genetic Drift        wfmd.py         probability     
+Global Alignment with Scoring Matrix and Affine Gap Penalty gaff.py gap         全局比对（gap开始-11,gap每多一个-1）最高得分和比对结果
+Genome Assembly with Perfect Coverage and Repeats grep.py       string          有向循环序列所有DNA序列组装的结果
+Overlap Alignment                               oap.py          gap             最佳重叠序列（序列首尾重叠）
+Finding a Motif with Modifications              sims.py         gap             最佳motif（最大得分和比对序列结果）
+Semiglobal Alignment                            smgb.py         gap             全局匹配gap-1,匹配替换+1（DNA序列）
