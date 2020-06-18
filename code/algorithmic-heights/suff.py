@@ -7,7 +7,7 @@ import re
 
 
 def rear(file_name):
-    text = open("/home/ann/Downloads/{}".format(file_name)).read()
+    text = open("/home/rosalind/Downloads/{}".format(file_name)).read()
     seqs = text.strip()
     # seqs = "GTCCGAAGCTCCGG$"
     result = ["$"]

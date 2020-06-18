@@ -7,7 +7,7 @@ import copy
 
 
 def mrep(file_name):
-    _seq = open("/home/ann/Downloads/{}".format(file_name)).read().strip()
+    _seq = open("/home/rosalind/Downloads/{}".format(file_name)).read().strip()
     # _seq = "TAGAGATAGAATGGGTCCAGAGTTTTGTAATTTCCATGGGTCCAGAGTTTTGTAATTTATTATATAGAGATAGAATGGGTCCAGAGTTTTGTAATTTCCATGGGTCCAGAGTTTTGTAATTTAT"
     window_size = 20
     result = match_two_seq(_seq, 1, window_size)

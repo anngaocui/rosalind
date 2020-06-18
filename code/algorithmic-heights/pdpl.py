@@ -7,7 +7,7 @@ import math
 
 
 def pdpl(file_name):
-    ints = open("/home/ann/Downloads/{}".format(file_name)).read()
+    ints = open("/home/rosalind/Downloads/{}".format(file_name)).read()
     # ints = "2 2 3 3 4 5 6 7 8 10"
     ints = map(int, ints.strip().split(" "))
     ints = sorted(ints)

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 def bins():
-    lines = open("/home/ann/下载/rosalind_bins.txt", "r").readlines()
+    lines = open("/home/rosalind/下载/rosalind_bins.txt", "r").readlines()
     n = int(lines[0].strip())
     m = int(lines[1].strip())
     a = lines[2].strip().split(' ')

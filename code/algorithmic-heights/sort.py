@@ -4,7 +4,7 @@
 # http://rosalind.info/problems/sort/
 
 def rear(file_name):
-    text = open("/home/ann/Downloads/{}".format(file_name)).read()
+    text = open("/home/rosalind/Downloads/{}".format(file_name)).read()
     records = text.strip().split("\n\n")
     result = []
     for record in records:
